@@ -8,5 +8,7 @@
 <body>
     <h1>Weslley Henrique Vieira Ferraz</h1>
     <p>Bem-vindo ao meu portfólio!</p>
+
+    <?=  "Olá, mundo!" ?>
 </body>
 </html>
