@@ -18,6 +18,8 @@
                 <li><a href="?page=variaveis">Variáveis</a></li>
                 <li><a href="?page=operadores">Operadores</a></li>
                 <li><a href="?page=condicional">Condicional</a></li>
+                <li><a href="?page=array">Arrays</a></li>
+                <li><a href="?page=funcoes">Funções</a></li>
             </ul>
         </nav>
     <?php
@@ -29,6 +31,10 @@
                 include 'fundamentos/operadores.php';
             } elseif ($page === 'condicional') {
                 include 'fundamentos/condicional.php';
+            } elseif ($page === 'array') {
+                include 'fundamentos/array.php';
+            } elseif ($page === 'funcoes') {
+                include 'fundamentos/funcoes.php';
             } else {
                 echo "<p>Página não encontrada.</p>";
             }
